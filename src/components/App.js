@@ -22,7 +22,7 @@ class App extends React.Component {
     return (
       <div>
         <h1>Weather App</h1>
-        <p>Current Temperature: <span style={temperatureStyle}>{temperature}°C</span></p>
+        <p>Temperature: <span style={temperatureStyle}>{temperature}</span></p>
         <p>Conditions: {conditions}</p>
       </div>
     );
